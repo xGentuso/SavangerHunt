@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct SavangerHuntApp: App {
+struct ScavengerHuntApp: App {
+    @StateObject var viewModel = HuntViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .environmentObject(viewModel)
         }
     }
 }

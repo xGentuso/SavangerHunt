@@ -6,17 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8CC2C3CC2D5656E300D3BB1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3C92D5656E300D3BB1B /* ContentView.swift */; };
+		8CC2C3CD2D5656E300D3BB1B /* SavangerHuntApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3CA2D5656E300D3BB1B /* SavangerHuntApp.swift */; };
+		8CC2C3CE2D5656E300D3BB1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2C3C62D5656E300D3BB1B /* Preview Assets.xcassets */; };
+		8CC2C3CF2D5656E300D3BB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2C3C82D5656E300D3BB1B /* Assets.xcassets */; };
+		8CC2C3D52D5659A000D3BB1B /* Clue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3D42D5659A000D3BB1B /* Clue.swift */; };
+		8CC2C3D72D5659AA00D3BB1B /* HuntData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3D62D5659AA00D3BB1B /* HuntData.swift */; };
+		8CC2C3D92D5659C400D3BB1B /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3D82D5659C400D3BB1B /* ViewExtensions.swift */; };
+		8CC2C3DB2D5659DF00D3BB1B /* HuntViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3DA2D5659DF00D3BB1B /* HuntViewModel.swift */; };
+		8CC2C3DF2D565A1900D3BB1B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3DE2D565A1900D3BB1B /* HomeView.swift */; };
+		8CC2C3E12D565A2400D3BB1B /* ClueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3E02D565A2400D3BB1B /* ClueDetailView.swift */; };
+		8CC2C3E32D565A2F00D3BB1B /* ClueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3E22D565A2F00D3BB1B /* ClueListView.swift */; };
+		8CC2C3E52D565A8400D3BB1B /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3E42D565A8400D3BB1B /* RewardView.swift */; };
+		8CC2C3E72D56641F00D3BB1B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3E62D56641F00D3BB1B /* ProfileView.swift */; };
+		8CC2C3E92D56643400D3BB1B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3E82D56643400D3BB1B /* MainTabView.swift */; };
+		8CC2C3EC2D56676100D3BB1B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3EB2D56676100D3BB1B /* Settings.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8CC2C3B52D56556300D3BB1B /* SavangerHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavangerHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC2C3C62D5656E300D3BB1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CC2C3C82D5656E300D3BB1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CC2C3C92D5656E300D3BB1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CC2C3CA2D5656E300D3BB1B /* SavangerHuntApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavangerHuntApp.swift; sourceTree = "<group>"; };
+		8CC2C3D42D5659A000D3BB1B /* Clue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clue.swift; sourceTree = "<group>"; };
+		8CC2C3D62D5659AA00D3BB1B /* HuntData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntData.swift; sourceTree = "<group>"; };
+		8CC2C3D82D5659C400D3BB1B /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		8CC2C3DA2D5659DF00D3BB1B /* HuntViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntViewModel.swift; sourceTree = "<group>"; };
+		8CC2C3DE2D565A1900D3BB1B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8CC2C3E02D565A2400D3BB1B /* ClueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueDetailView.swift; sourceTree = "<group>"; };
+		8CC2C3E22D565A2F00D3BB1B /* ClueListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueListView.swift; sourceTree = "<group>"; };
+		8CC2C3E42D565A8400D3BB1B /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		8CC2C3E62D56641F00D3BB1B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8CC2C3E82D56643400D3BB1B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		8CC2C3EB2D56676100D3BB1B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8CC2C3B72D56556300D3BB1B /* SavangerHunt */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SavangerHunt;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8CC2C3B22D56556300D3BB1B /* Frameworks */ = {
@@ -32,7 +57,7 @@
 		8CC2C3AC2D56556300D3BB1B = {
 			isa = PBXGroup;
 			children = (
-				8CC2C3B72D56556300D3BB1B /* SavangerHunt */,
+				8CC2C3CB2D5656E300D3BB1B /* SavangerHunt */,
 				8CC2C3B62D56556300D3BB1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +68,76 @@
 				8CC2C3B52D56556300D3BB1B /* SavangerHunt.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC2C3C72D5656E300D3BB1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2C3C62D5656E300D3BB1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CC2C3CB2D5656E300D3BB1B /* SavangerHunt */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2C3EA2D56675600D3BB1B /* Config */,
+				8CC2C3D32D5657AE00D3BB1B /* Extensions */,
+				8CC2C3D22D56570500D3BB1B /* ViewModels */,
+				8CC2C3D12D5656FF00D3BB1B /* Views */,
+				8CC2C3D02D5656F400D3BB1B /* Models */,
+				8CC2C3C72D5656E300D3BB1B /* Preview Content */,
+				8CC2C3C82D5656E300D3BB1B /* Assets.xcassets */,
+				8CC2C3C92D5656E300D3BB1B /* ContentView.swift */,
+				8CC2C3CA2D5656E300D3BB1B /* SavangerHuntApp.swift */,
+			);
+			path = SavangerHunt;
+			sourceTree = "<group>";
+		};
+		8CC2C3D02D5656F400D3BB1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2C3D42D5659A000D3BB1B /* Clue.swift */,
+				8CC2C3D62D5659AA00D3BB1B /* HuntData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CC2C3D12D5656FF00D3BB1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2C3DE2D565A1900D3BB1B /* HomeView.swift */,
+				8CC2C3E02D565A2400D3BB1B /* ClueDetailView.swift */,
+				8CC2C3E22D565A2F00D3BB1B /* ClueListView.swift */,
+				8CC2C3E42D565A8400D3BB1B /* RewardView.swift */,
+				8CC2C3E62D56641F00D3BB1B /* ProfileView.swift */,
+				8CC2C3E82D56643400D3BB1B /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CC2C3D22D56570500D3BB1B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2C3DA2D5659DF00D3BB1B /* HuntViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8CC2C3D32D5657AE00D3BB1B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2C3D82D5659C400D3BB1B /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8CC2C3EA2D56675600D3BB1B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8CC2C3EB2D56676100D3BB1B /* Settings.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +154,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8CC2C3B72D56556300D3BB1B /* SavangerHunt */,
 			);
 			name = SavangerHunt;
 			packageProductDependencies = (
@@ -109,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC2C3CE2D5656E300D3BB1B /* Preview Assets.xcassets in Resources */,
+				8CC2C3CF2D5656E300D3BB1B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +213,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC2C3CC2D5656E300D3BB1B /* ContentView.swift in Sources */,
+				8CC2C3DF2D565A1900D3BB1B /* HomeView.swift in Sources */,
+				8CC2C3EC2D56676100D3BB1B /* Settings.swift in Sources */,
+				8CC2C3D52D5659A000D3BB1B /* Clue.swift in Sources */,
+				8CC2C3E52D565A8400D3BB1B /* RewardView.swift in Sources */,
+				8CC2C3D72D5659AA00D3BB1B /* HuntData.swift in Sources */,
+				8CC2C3E32D565A2F00D3BB1B /* ClueListView.swift in Sources */,
+				8CC2C3DB2D5659DF00D3BB1B /* HuntViewModel.swift in Sources */,
+				8CC2C3D92D5659C400D3BB1B /* ViewExtensions.swift in Sources */,
+				8CC2C3E12D565A2400D3BB1B /* ClueDetailView.swift in Sources */,
+				8CC2C3E72D56641F00D3BB1B /* ProfileView.swift in Sources */,
+				8CC2C3CD2D5656E300D3BB1B /* SavangerHuntApp.swift in Sources */,
+				8CC2C3E92D56643400D3BB1B /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
