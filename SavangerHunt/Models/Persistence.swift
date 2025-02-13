@@ -35,8 +35,8 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        // Change "YourAppName" to match your .xcdatamodeld filename
-        container = NSPersistentContainer(name: "YourAppName")
+        
+        container = NSPersistentContainer(name: "ScavengerHunt")
         
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
