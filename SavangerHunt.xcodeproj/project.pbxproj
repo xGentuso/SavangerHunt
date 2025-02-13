@@ -12,7 +12,6 @@
 		8CC2C3CE2D5656E300D3BB1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2C3C62D5656E300D3BB1B /* Preview Assets.xcassets */; };
 		8CC2C3CF2D5656E300D3BB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2C3C82D5656E300D3BB1B /* Assets.xcassets */; };
 		8CC2C3D52D5659A000D3BB1B /* Clue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3D42D5659A000D3BB1B /* Clue.swift */; };
-		8CC2C3D72D5659AA00D3BB1B /* HuntData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3D62D5659AA00D3BB1B /* HuntData.swift */; };
 		8CC2C3D92D5659C400D3BB1B /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3D82D5659C400D3BB1B /* ViewExtensions.swift */; };
 		8CC2C3DB2D5659DF00D3BB1B /* HuntViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3DA2D5659DF00D3BB1B /* HuntViewModel.swift */; };
 		8CC2C3DF2D565A1900D3BB1B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3DE2D565A1900D3BB1B /* HomeView.swift */; };
@@ -22,6 +21,8 @@
 		8CC2C3E72D56641F00D3BB1B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3E62D56641F00D3BB1B /* ProfileView.swift */; };
 		8CC2C3E92D56643400D3BB1B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3E82D56643400D3BB1B /* MainTabView.swift */; };
 		8CC2C3EC2D56676100D3BB1B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC2C3EB2D56676100D3BB1B /* Settings.swift */; };
+		8CC554932D5E4E8500CE4E39 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC554922D5E4E8500CE4E39 /* CameraView.swift */; };
+		8CC554962D5E525500CE4E39 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC554942D5E519500CE4E39 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,6 @@
 		8CC2C3C92D5656E300D3BB1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CC2C3CA2D5656E300D3BB1B /* SavangerHuntApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavangerHuntApp.swift; sourceTree = "<group>"; };
 		8CC2C3D42D5659A000D3BB1B /* Clue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clue.swift; sourceTree = "<group>"; };
-		8CC2C3D62D5659AA00D3BB1B /* HuntData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntData.swift; sourceTree = "<group>"; };
 		8CC2C3D82D5659C400D3BB1B /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		8CC2C3DA2D5659DF00D3BB1B /* HuntViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntViewModel.swift; sourceTree = "<group>"; };
 		8CC2C3DE2D565A1900D3BB1B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -41,6 +41,8 @@
 		8CC2C3E62D56641F00D3BB1B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8CC2C3E82D56643400D3BB1B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		8CC2C3EB2D56676100D3BB1B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8CC554922D5E4E8500CE4E39 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		8CC554942D5E519500CE4E39 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8CC2C3D42D5659A000D3BB1B /* Clue.swift */,
-				8CC2C3D62D5659AA00D3BB1B /* HuntData.swift */,
+				8CC554942D5E519500CE4E39 /* Persistence.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,6 +114,7 @@
 				8CC2C3E42D565A8400D3BB1B /* RewardView.swift */,
 				8CC2C3E62D56641F00D3BB1B /* ProfileView.swift */,
 				8CC2C3E82D56643400D3BB1B /* MainTabView.swift */,
+				8CC554922D5E4E8500CE4E39 /* CameraView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,10 +218,11 @@
 			files = (
 				8CC2C3CC2D5656E300D3BB1B /* ContentView.swift in Sources */,
 				8CC2C3DF2D565A1900D3BB1B /* HomeView.swift in Sources */,
+				8CC554932D5E4E8500CE4E39 /* CameraView.swift in Sources */,
+				8CC554962D5E525500CE4E39 /* Persistence.swift in Sources */,
 				8CC2C3EC2D56676100D3BB1B /* Settings.swift in Sources */,
 				8CC2C3D52D5659A000D3BB1B /* Clue.swift in Sources */,
 				8CC2C3E52D565A8400D3BB1B /* RewardView.swift in Sources */,
-				8CC2C3D72D5659AA00D3BB1B /* HuntData.swift in Sources */,
 				8CC2C3E32D565A2F00D3BB1B /* ClueListView.swift in Sources */,
 				8CC2C3DB2D5659DF00D3BB1B /* HuntViewModel.swift in Sources */,
 				8CC2C3D92D5659C400D3BB1B /* ViewExtensions.swift in Sources */,
@@ -362,6 +366,8 @@
 				DEVELOPMENT_TEAM = LN2HJ678YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to take photos of clues.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to select images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -391,6 +397,8 @@
 				DEVELOPMENT_TEAM = LN2HJ678YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to take photos of clues.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to select images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

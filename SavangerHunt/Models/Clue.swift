@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct Clue: Identifiable {
     let id = UUID()
@@ -13,4 +14,5 @@ struct Clue: Identifiable {
     var description: String
     var imageName: String
     var found: Bool = false
-}
+    var photo: UIImage? = nil
+ }
